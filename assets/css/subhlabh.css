@@ -1,0 +1,26 @@
+.banner-image{
+      max-height: 810px !important;
+    object-fit: fill;
+}
+.card-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 8;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.card-text.expanded {
+  -webkit-line-clamp: unset;
+  max-height: none;
+  overflow: visible;
+}
+.show-more-btn {
+  color: #007BFF;
+  cursor: pointer;
+  font-weight: 500;
+  margin-top: 8px;
+  display: inline-block;
+}
