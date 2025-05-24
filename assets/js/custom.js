@@ -112,30 +112,7 @@ $(document).ready(function() {
             var dateTime = currentDate.toLocaleString();
             return dateTime;
           }
-        $(function() {
-            var owl = $(".gallerycarousel");
-            owl.owlCarousel({
-                items: 1,
-                loop: false,
-                margin: 10,
-                nav: true,
-                dots: false,
-                responsive: {
-                    0: {
-                        items: 1
-                    },
-                    600: {
-                        items: 2
-                    },
-                    820: {
-                        items: 3
-                    },
-                    1040: {
-                        items: 4
-                    }
-                }
-            });
-        });
+      
         if ((window).matchMedia('(max-width: 767px').matches) {
             $(window).scroll(function() {
                 let scroll = $(window).scrollTop();
@@ -243,30 +220,7 @@ $(document).ready(function() {
         const heading = target.attr('data-name');
         $('.modal-title').html(heading);
     })
-    $(function() {
-        var owl = $(".gallerycarousel");
-        owl.owlCarousel({
-            items: 1,
-            loop: false,
-            margin: 10,
-            nav: true,
-            dots: false,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 2
-                },
-                820: {
-                    items: 3
-                },
-                1040: {
-                    items: 4
-                }
-            }
-        });
-    });
+   
     if ((window).matchMedia('(max-width: 767px').matches) {
         $(window).scroll(function() {
             let scroll = $(window).scrollTop();

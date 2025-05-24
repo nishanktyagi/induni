@@ -110,7 +110,7 @@
 
     .convenience-section h2 {
         font-size: 24px;
-        padding: 45px 0 35px !important
+        padding: 0px 0 35px !important
     }
 
 
@@ -359,9 +359,10 @@
         font-size: 56px;
     }
 
-    .convenience-section {
-        border-top: 1px solid #eeee;
-    }
+   
+    #serviceSection {
+    margin-bottom: 90px;
+}
 }
 
 @media(min-width:992px) {
@@ -480,6 +481,7 @@
         position: fixed;
         bottom: 60px;
         right: 40px;
+        z-index: 9;
     }
 }
 
