@@ -29,9 +29,11 @@ h6 {
     color: #0c4469 !important;
     font-family: montserrat, sans-serif !important
 }
-a{
+
+a {
     color: #0c4469 !important;
 }
+
 body {
     font-family: lato, sans-serif !important;
     font-size: 14px;
@@ -180,7 +182,7 @@ li {
     font-weight: 500;
     color: #222;
     cursor: pointer
-}  
+}
 
 .navbar .nav-link.active {
     color: #0c4469 !important;
@@ -301,7 +303,8 @@ li {
     position: relative;
     border-right: 1px solid #e6e6e6
 }
-.property-info-icon{
+
+.property-info-icon {
     height: 50px;
     margin-bottom: 20px;
 }
@@ -1256,14 +1259,22 @@ td span:hover {
     font-weight: 700;
     color: #0c4469
 }
-#home{
+
+#home {
     margin-top: 56px;
 }
-.about-line{
+
+.about-line {
     font-size: 73px;
     color: #0c4469;
 }
+
 .card-img-top {
     min-height: 270px;
     max-height: 270px;
+}
+
+.pulse-btn {
+    background: linear-gradient(90deg, #f82d0b, #f82d0b) !important;
+    border: 1px solid #f82d0b !important;
 }
