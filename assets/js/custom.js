@@ -26,7 +26,7 @@ $(document).ready(function() {
             $('#contactus_side').hide();
             $('.sidebuttonload').show();
             jQuery.ajax({
-                url: 'https://script.google.com/macros/s/AKfycbwDYSo5lbN1QYxxMoJAe6xaN17F1ziZLuMttwkjct-brAfWhwpWiWcy429Xrj3b0k6GTw/exec',
+                url: 'https://script.google.com/macros/s/AKfycbxDwynoArCUI7fL6eq8-nr6WB6pgz1DjNKSOxjJN0aom3wyCfV6F4dtg402jMfCjCZW/exec',
                 type: 'post',
                 data: jQuery('#side_form').serialize(),
                 success: function (result) {
@@ -62,7 +62,7 @@ $(document).ready(function() {
             $('#contactus_modal').hide();
             $('.modalbuttonload').show();
             jQuery.ajax({
-                url: 'https://script.google.com/macros/s/AKfycbwDYSo5lbN1QYxxMoJAe6xaN17F1ziZLuMttwkjct-brAfWhwpWiWcy429Xrj3b0k6GTw/exec',
+                url: 'https://script.google.com/macros/s/AKfycbxDwynoArCUI7fL6eq8-nr6WB6pgz1DjNKSOxjJN0aom3wyCfV6F4dtg402jMfCjCZW/exec',
                 type: 'post',
                 data: jQuery('#modal_form').serialize(),
                 success: function (result) {
@@ -97,7 +97,7 @@ $(document).ready(function() {
             $('#contactus_banner').hide();
             $('.bannerbuttonload').show();
             jQuery.ajax({
-                url: 'https://script.google.com/macros/s/AKfycbwDYSo5lbN1QYxxMoJAe6xaN17F1ziZLuMttwkjct-brAfWhwpWiWcy429Xrj3b0k6GTw/exec',
+                url: 'https://script.google.com/macros/s/AKfycbxDwynoArCUI7fL6eq8-nr6WB6pgz1DjNKSOxjJN0aom3wyCfV6F4dtg402jMfCjCZW/exec',
                 type: 'post',
                 data: jQuery('#banner-form').serialize(),
                 success: function (result) {

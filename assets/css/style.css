@@ -671,7 +671,7 @@ td {
 .btn-style-one:hover {
     background: 0 0;
     border: 1px solid #0c4469;
-    color: #0c4469
+    color: #0c4469 !important;
 }
 
 .btn-style-two {
